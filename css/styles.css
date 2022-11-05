@@ -288,17 +288,14 @@ address {
     color: var(--color-blue);
 }
 
-
+.footer-item {
+    margin-bottom: 9px;
+}
 .footer-items {
    font-size: 14px;
    line-height: 1.71;
 }
-
-.footer-item:not(:last-child) {
-margin-bottom: 9px;
-}
 .footer-address {
-   
     color: var(--color-white);
 }
 
@@ -308,7 +305,6 @@ margin-bottom: 9px;
 
 .footer-phone {
     color: var(--color-grayfooter);
-  
 }
 
    /*<------PORTFOLIO------>*/
