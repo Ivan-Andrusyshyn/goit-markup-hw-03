@@ -124,18 +124,12 @@ color: var(--color-blue);
 .hero {
     color: var(--color-white);
     background-color: #2F303A;
-    
+    padding-top:200px ;
+    padding-bottom:200px ;
 }
-.hero-wrap{
-        display: inline-block;
-        margin: 0 auto;
-        padding-top: 200px;
-        padding-bottom: 200px;
-        padding-left: 270px;
-        padding-right: 270px;
-        text-align: center;
-}
+
 .hero-title {
+ text-align: center;
     text-transform: uppercase;
     margin-bottom: 30px;
     font-size:44px;
@@ -175,10 +169,12 @@ color: var(--color-blue);
      clip-path: inset(50%);
      margin: -1px;
  }
+.benefits-section {
+     padding-top: 94px;
+    padding-bottom: 94px;
+}
 .benefits {
     display: flex;
-    padding-top: 94px;
-    padding-bottom: 94px;
     gap: 30px;
 }
 
@@ -331,7 +327,6 @@ address {
 
 .filter-btn {
     border-radius: 4px;
-    margin-bottom:5px ;
     padding: 6px 25px;
     min-width: 73px;
     font-family: inherit;
